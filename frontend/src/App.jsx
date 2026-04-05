@@ -8,6 +8,7 @@ import WorkoutAddPage from './pages/WorkoutAddPage';
 import WorkoutEditPage from './pages/WorkoutEditPage';
 import GoalsPage from './pages/GoalsPage';
 import ProfilePage from './pages/ProfilePage';
+import AdminPanelPage from './pages/AdminPanelPage';
 
 // import ProtectedRoute from './components/ProtectedRoute';
 
@@ -21,6 +22,8 @@ function App() {
   <Route path="/landing" element={<LandingPage />} />
   <Route path="/register" element={<SignupPage />} />
    <Route path="/login" element={<LoginPage />} />
+  <Route path="/adminpanel" element={<AdminPanelPage />} />
+
       {/* <Route 
         path="/dashboard" 
         element={
